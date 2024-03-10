@@ -45,7 +45,7 @@ and then dial 1 to turn on the web interface.
 3 (RX) ->   8 (TX)
 5 (GNC) ->  6 (GND)
 ```
-![12415](https://github.com/tangoslee/notes/assets/42908571/6f984a57-e1f6-4e2f-9a72-5a7827968159)
+![spa122](https://github.com/tangoslee/notes/assets/42908571/13b0c74e-489c-4ea5-a2e8-d05132496902)
 
 ![pi](https://github.com/tangoslee/notes/assets/42908571/f975d3c6-b7e0-4951-b9b1-07addc479002)
 
