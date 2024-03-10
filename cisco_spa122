@@ -1,0 +1,19 @@
+Cisco SPA122
+
+## What the device IP is
+
+Enntering configuration mode
+****
+
+What is my ip?
+110#
+
+## turn on the web interface.
+dial **** from the phone connected to your ATA,
+then dial 7932#
+and then dial 1 to turn on the web interface.
+
+
+## Reset
+****
+73738#
