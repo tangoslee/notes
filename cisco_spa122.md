@@ -31,5 +31,6 @@ and then dial 1 to turn on the web interface.
 
 
 ## References
+
 https://www.williamreading.com/2021/09/26/unlocking-a-spa122.html
 https://www.insentricity.com/a.cl/277/unlocking-a-cisco-spa122-for-use-with-any-provider
