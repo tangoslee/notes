@@ -38,8 +38,20 @@ and then dial 1 to turn on the web interface.
 { x+ | \+x+ | *x+ | *xx*x+ }
 ```
 
+## How to connect SPA122 to Raspberry PI
+
+```
+2 (TX) ->  10 (RX)
+3 (RX) ->   8 (TX)
+5 (GNC) ->  6 (GND)
+```
+![12415](https://github.com/tangoslee/notes/assets/42908571/6f984a57-e1f6-4e2f-9a72-5a7827968159)
+
+![pi](https://github.com/tangoslee/notes/assets/42908571/f975d3c6-b7e0-4951-b9b1-07addc479002)
+
 
 ## References
 
 - https://www.williamreading.com/2021/09/26/unlocking-a-spa122.html
 - https://www.insentricity.com/a.cl/277/unlocking-a-cisco-spa122-for-use-with-any-provider
+- https://pinout.xyz/
