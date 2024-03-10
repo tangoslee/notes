@@ -17,3 +17,14 @@ and then dial 1 to turn on the web interface.
 ## Reset
 ****
 73738#
+
+
+## Default dial plan
+### Origin
+```
+(*xx|[3469]11|0|00|[2-9]xxxxxx|1xxx[2-9]xxxxxxS0|xxxxxxxxxxxx.)
+```
+### After
+```
+{ x+ | \+x+ | *x+ | *xx*x+ }
+```
