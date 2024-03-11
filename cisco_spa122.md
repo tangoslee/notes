@@ -50,6 +50,15 @@ and then dial 1 to turn on the web interface.
 ![pi](https://github.com/tangoslee/notes/assets/42908571/f975d3c6-b7e0-4951-b9b1-07addc479002)
 
 
+## Cisco SPA112 2-Port Phone Adapter
+### Analog Telephone Adaptor (ATA) Firmware
+
+[SPA112-SPA122_1.4.1SR5_FW.zip](https://github.com/tangoslee/notes/files/14553149/SPA112-SPA122_1.4.1SR5_FW.zip)
+
+### Profile Compiler (SPC) Tool
+[SPA112_SPA122_SPA232D_SPA302D_1.4.1_SPC.zip](https://github.com/tangoslee/notes/files/14553151/SPA112_SPA122_SPA232D_SPA302D_1.4.1_SPC.zip)
+
+
 ## References
 
 - https://www.williamreading.com/2021/09/26/unlocking-a-spa122.html
