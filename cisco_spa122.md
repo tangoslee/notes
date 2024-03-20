@@ -38,6 +38,22 @@ and then dial 1 to turn on the web interface.
 { x+ | \+x+ | *x+ | *xx*x+ }
 ```
 
+## How to enable serial port for Raspberry PI
+
+- Start configuration
+```
+raspi-config
+```
+- Interface interface > Serial Port
+```
+Would you like a login shell to be accessbile over serial? => No
+Would you like the serial port hardware to be enabled? => Yes
+```
+
+
+Raspberry Pi for unlocking, you’ll want to start up raspi-config, go to ‘Interface Options’, ‘Serial Port’, disable the shell, but enable the hardware
+
+
 ## How to connect SPA122 to Raspberry PI
 
 ```
@@ -45,9 +61,11 @@ and then dial 1 to turn on the web interface.
 3 (RX) ->   8 (TX)
 5 (GNC) ->  6 (GND)
 ```
-![spa122](https://github.com/tangoslee/notes/assets/42908571/13b0c74e-489c-4ea5-a2e8-d05132496902)
+
+![Screenshot from 2024-03-20 15-57-31](https://github.com/tangoslee/notes/assets/42908571/ed07bad6-6874-4fb0-862c-78404fe7f56a)
 
 ![pi](https://github.com/tangoslee/notes/assets/42908571/f975d3c6-b7e0-4951-b9b1-07addc479002)
+![rpi4-pinout](https://github.com/tangoslee/notes/assets/42908571/08dc5d58-c378-4987-804a-b0b49093cc2f)
 
 
 ## Cisco SPA112 2-Port Phone Adapter
