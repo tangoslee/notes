@@ -67,6 +67,26 @@ Raspberry Pi for unlocking, you’ll want to start up raspi-config, go to ‘Int
 ![pi](https://github.com/tangoslee/notes/assets/42908571/f975d3c6-b7e0-4951-b9b1-07addc479002)
 ![rpi4-pinout](https://github.com/tangoslee/notes/assets/42908571/08dc5d58-c378-4987-804a-b0b49093cc2f)
 
+## commands
+```
+setenv bootargs $bootargs init=/bin/sh;boot;
+
+mount -t proc proc /proc;mount -t sysfs sysfs /sys;mount -t tmpfs -o size=64k,mode=0755 tmpfs /dev;mdev -s;
+
+mount -t jffs2 /dev/mtdblock9 /nvram;grep admin /nvram/nvram.data;cp -a /nvram/nvram.data /nvram/nvram.data-old;
+
+
+[ -f /nvram/nvram.data-old ] && cat /nvram/nvram.data-old | sed -e 's/admin,enc=c1e8471fdb55c1fe819a8639790f0637,0/admin,enc=498836900e3cb4d343b96f3f1c578f4a,0/' | sed -e 's/user,enc=2b26a9ac157cb6886f6765553cc322ec,1/cisco,enc=0fa58742e186c8e5ce52ba133f8714cb,1/' > /nvram/nvram.data
+
+mount -t jffs2 /dev/mtdblock9 /nvram;grep admin /nvram/nvram.data;umount /nvram;
+
+mount -t jffs2 /dev/mtdblock9 /nvram;grep admin /nvram/nvram.data;umount /nvram;
+
+
+mount -t tmpfs -o size=64k,mode=0755 tmpfs /tmp;mkdir -p /tmp/ca_data;mount -t jffs2 /dev/mtdblock10 /tmp/ca_data;
+
+```
+
 
 ## Cisco SPA112 2-Port Phone Adapter
 ### Analog Telephone Adaptor (ATA) Firmware
